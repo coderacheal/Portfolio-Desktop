@@ -20,7 +20,7 @@
 }
 
 .name {
-  list-style-type: none; 
+  list-style-type: none;
   margin-left: 150px;
   color: white;
   padding: 10px;
@@ -90,7 +90,7 @@
   line-height: 32px;
 }
 
-.my-recent-work{
+.my-recent-work {
   display: flex;
   flex-direction: column;
   margin-top: 90px;
@@ -130,7 +130,7 @@
   margin-right: 30px;
 }
 
-.multipost-title{
+.multipost-title {
   font-family: 'Crete Round', monospace;
   font-size: 40px;
   font-weight: 400;
@@ -143,6 +143,7 @@
   font-weight: 400px;
   line-height: 28px;
 }
+
 .multipost-language-ul {
   display: flex;
   list-style-type: none;
@@ -194,7 +195,6 @@
 .see-project-button {
   margin-top: 0;
   padding: 10px;
-  width: 120px;
   background-color: #ff6b00;
   border: 0;
   height: 50px;
@@ -264,4 +264,3 @@
   background-repeat: no-repeat;
   background-position: right bottom;
 }
-
