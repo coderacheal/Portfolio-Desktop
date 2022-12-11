@@ -58,11 +58,11 @@
   color: white;
   font-family: Inter, monospace;
   font-size: 17px;
-  width: 150px
+  width: 150px;
 }
 
 #line-3 {
-  background-color: #dfe1e6;;
+  background-color: #dfe1e6;
   height: 1px;
   margin-top: 120px;
 }
