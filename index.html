@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="styles/main-page.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/about-me.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <title>My Portfolio</title>
 </head>
 <body>
    <nav class="nav-bar">
         <a class="name" href="#">John Doe</a>
         <ul class="nav-ul">
-            <li class="nav-items">Portfolio</li>
-            <li class="nav-items">About</li>
-            <li class="nav-items">Contact</li>
+            <li class="nav-items"><a class="nav-items" href="#">Portfolio</a></li>
+            <li class="nav-items"><a class="nav-items" href="#">About</a></li>
+            <li class="nav-items"><a class="nav-items" href="#">Contact</a></li>
             <li class="nav-items"><img src="images/mail-icon.png" alt="mail-icon"></li>
         </ul>
    </nav>
@@ -179,27 +180,25 @@
             </div>
         </div>
    </section>
-   <footer>
-    <div>
-        <div>
-            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+   <footer class="footer-section">
+    <div class="footer-info-and-form">
+        <div class="footer-description-div">
+            <p class="footer-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-        <div>
-            <form action="" method="post">
-                <input type="text" placeholder="Fullname" maxlength="30" required>
-                <input type="email" placeholder="Email address" required>
-                <textarea name="message" cols="30" rows="5" maxlength="500" required></textarea>
-                <button type="submit">Get in touch</button>
-            </form>
-            <p>i</p>
-        </div>
+        <form class="footer-form" action="" method="post">
+            <input class="form-fullname" type="text" placeholder="Fullname" maxlength="30" required>
+            <input class="form-email" type="email" placeholder="Email address" required>
+            <textarea class="form-textarea" name="message" cols="30" rows="5" maxlength="500" required>Hello Mariane. Glad to see you |</textarea>
+            <button class="submit-form-button" type="submit">Get in touch</button>
+        </form>
     </div>
-    <div>
-        <a href=""><img src="images/github.png" alt="github-logo"></a>
-        <a href=""><img src="images/linkedin.png" alt="linkedin-logo"></a>
-        <a href=""><img src="images/hand.png" alt="hand-logo"></a>
-        <a href=""><img src="images/twitter.png" alt="twitter-logo"></a>
-        <a href=""><img src="images/Vector.png" alt="vector-logo"></a>
+    <p id="line-3"></p>
+    <div class="footer-socials-div">
+        <a href=""><img class="individual-socials" src="images/github.png" alt="github-logo"></a>
+        <a href=""><img class="individual-socials" src="images/linkedin.png" alt="linkedin-logo"></a>
+        <a href=""><img class="individual-socials" src="images/hand.png" alt="hand-logo"></a>
+        <a href=""><img class="individual-socials" src="images/twitter.png" alt="twitter-logo"></a>
+        <a href=""><img class="individual-socials" src="images/Vector.png" alt="vector-logo"></a>
     </div>
 </footer>
 </body>
