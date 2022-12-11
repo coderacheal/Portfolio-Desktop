@@ -9,65 +9,131 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300&display=swap'); </style>
     <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
     <link rel="stylesheet" href="styles/main-page.css">
+    <link rel="stylesheet" href="styles/general.css">
     <title>My Portfolio</title>
 </head>
 <body>
    <nav class="nav-bar">
-        <ul class="name-ul">
-            <li>John Doe</li>
-        </ul>
+        <a class="name" href="#">John Doe</a>
         <ul class="nav-ul">
             <li class="nav-items">Portfolio</li>
             <li class="nav-items">About</li>
             <li class="nav-items">Contact</li>
-            <li><img src="images/mail-icon.png" alt="mail-icon"></li>
+            <li class="nav-items"><img src="images/mail-icon.png" alt="mail-icon"></li>
         </ul>
    </nav>
    <section class="intro-page">
-        <div>
-            <ul>
-                <li><img src="images/github.png" alt="github-logo"></li>
-                <li><img src="images/linkedin.png" alt="linkedin-logo"></li>
-                <li><img src="images/hand.png" alt="hand-logo"></li>
-                <li><img src="images/twitter.png" alt="twitter-logo"></li>
-                <li><img src="images/Vector.png" alt="vector-logo"></li>
-            </ul>
-        </div>
-        <div>
-            <h1>Hello There</h1>
-            <h1>I am Alex</h1>
-            <p>I'm a Software Developer</p>
-            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <ul class="social-ul">
+            <li class="social-li"><a href="#"><img src="images/github.png" alt="github-logo"></a></li>
+            <li class="social-li"><a href="#"><img src="images/linkedin.png" alt="linkedin-logo"></a></li>
+            <li class="social-li"><a href="#"><img src="images/hand.png" alt="hand-logo"></a></li>
+            <li class="social-li"><a href="#"><img src="images/twitter.png" alt="twitter-logo"></a></li>
+            <li class="social-li"><a href="#"><img src="images/Vector.png" alt="vector-logo"></a></li>
+        </ul>
+        <div class="developer-intro">
+            <h1 class="developer-name">Hey There. <br> I'm Alex </h1>
+            <p class="developer-job">I'm a Software Developer</p>
+            <p class="developer-description">I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
         </div>
    </section>
    <section class="my-recent-work">
         <div class="recent-work-and-line">
-            <h2>My Recent Work</h2>
-            <p>l</p>
+            <h2 class="recent-work-heading">My Recent Work</h2>
+            <p id="line-1"></p>
         </div>
-        <div>
-            <img src="images/yoga.png" alt="yoga-girl-image">
+        <div class="multipost-div">
+            <img class="yoga-img" src="images/yoga-girl.png" alt="yoga-girl-image">
             <div>
-                <h2>Multi-post Stories</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <h2 class="multipost-title">Multi-Post Stories</h2>
+                <p class="multipost-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 <div>
-                    <ul>
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
+                    <ul class="multipost-language-ul">
+                        <li><button class="multipost-language-buttons">css</button></li>
+                        <li><button class="multipost-language-buttons">html</button></li>
+                        <li><button class="multipost-language-buttons">bootstrap</button></li>
+                        <li><button class="multipost-language-buttons">Ruby</button></li>
                     </ul>
                 </div>
-                <button>See Project</button>
+                <button class="multipost-see-project-button">See Project</button>
             </div>
         </div>
-        <div>
-            <img src="images/prof-printing.png" alt="background-image">
-            <img src="images/availability.png" alt="background-image">
-            <img src="images/Website-portfolio.png" alt="background-image">
-            <img src="images/Prof-printing2.png" alt="background-image">
-            <img src="images/availability.png" alt="background-image">
-            <img src="images/Website-portfolio.png" alt="background-image">
+        <div class="projects-div">
+            <div class="individual-projects">
+                <div class="first-project-grid">
+                    <img class="project-img-1" src="images/prof-printing.png" alt="background-image">
+                    <button class="see-project-button">See Project</button>
+                </div>
+            </div>
+            <div class="individual-projects">
+                <img class="project-image" src="images/availability.png" alt="background-image">
+                <div class="floating-project-description">
+                    <h4 class="individual-project-title">Data Dashboard <br> Healthcare</h4>
+                    <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <div >
+                        <ul class="individual-project-botton-ul">
+                            <li><button class="individual-project-buttons">html</button></li>
+                            <li><button class="individual-project-buttons">bootstrap</button></li>
+                            <li><button class="individual-project-buttons">Ruby</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="individual-projects">
+                <img src="images/Website-portfolio.png" alt="background-image">
+                <div class="floating-project-description">
+                    <h4 class="individual-project-title website-portfolio">Website Portfolio </h4>
+                    <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <div >
+                        <ul class="individual-project-botton-ul">
+                            <li><button class="individual-project-buttons">html</button></li>
+                            <li><button class="individual-project-buttons">bootstrap</button></li>
+                            <li><button class="individual-project-buttons">Ruby</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="individual-projects">
+                <img src="images/Prof-printing2.png" alt="background-image">
+                <div class="floating-project-description">
+                    <h4 class="individual-project-title">Professional Art <br>Printing Data More</h4>
+                    <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <div >
+                        <ul class="individual-project-botton-ul">
+                            <li><button class="individual-project-buttons">html</button></li>
+                            <li><button class="individual-project-buttons">bootstrap</button></li>
+                            <li><button class="individual-project-buttons">Ruby</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="individual-projects">
+                <img src="images/availability.png" alt="background-image">
+                <div class="floating-project-description">
+                    <h4 class="individual-project-title">Data Dashboard <br> Healthcare</h4>
+                    <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <div >
+                        <ul class="individual-project-botton-ul">
+                            <li><button class="individual-project-buttons">html</button></li>
+                            <li><button class="individual-project-buttons">bootstrap</button></li>
+                            <li><button class="individual-project-buttons">Ruby</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="individual-projects">
+                <img src="images/Website-portfolio.png" alt="background-image">
+                <div class="floating-project-description">
+                    <h4 class="individual-project-title website-portfolio">Website Portfolio </h4>
+                    <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <div >
+                        <ul class="individual-project-botton-ul">
+                            <li><button class="individual-project-buttons">html</button></li>
+                            <li><button class="individual-project-buttons">bootstrap</button></li>
+                            <li><button class="individual-project-buttons">Ruby</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
    </section>
    <section class="about-me">
