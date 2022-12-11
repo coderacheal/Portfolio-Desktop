@@ -1,34 +1,64 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .nav-bar {
-    height: 72px;
-    background-color: #3e3c3c;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
+  height: 72px;
+  background-color: #3e3c3c;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-ul {
-    list-style-type: none;
-    display: flex;
-    margin-right: 150px;
-    vertical-align: center;
-    color: white;
-    padding: 10px;
+  list-style-type: none;
+  display: flex;
+  margin-right: 150px;
+  vertical-align: center;
+  color: white;
+  padding: 10px;
 }
 
 .name-ul {
-    list-style-type: none; 
-    margin-left: 150px;
-    color: white;
-    padding: 10px;
-    font-family: Inter, monospace;
-    font-size: 20px;
+  list-style-type: none; 
+  margin-left: 150px;
+  color: white;
+  padding: 10px;
+  font-family: Inter, monospace;
+  font-size: 20px;
 }
 
 .nav-items {
   margin-left: 15px;
   font-family: Inter, monospace;
-    font-size: 20px;
+  font-size: 20px;
+}
+
+.intro-page {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 100px, 1fr;
+  height: 870px;
+  background-image: url('/bg.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #1c1a19;
+  color: white;
+
+}
+
+.about-me {
+  background-color: #3e3c3c;
+  color: white;
+  
+}
+
+.about-me-intro {
+  background-image: url('/images/about-me-image.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
