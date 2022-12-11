@@ -1,0 +1,78 @@
+.footer-section {
+  margin-top: 80px;
+}
+
+.footer-info-and-form {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-description-div {
+  width: 455px;
+}
+
+.footer-description {
+  font-family: Inter, monospace;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.form-fullname {
+  padding: 15px;
+  width: 600px;
+  border: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  border-bottom-color: #dbd8d7;
+}
+
+.form-email {
+  padding: 15px;
+  width: 600px;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-bottom-color: #dbd8d7;
+}
+
+.form-textarea {
+  padding: 15px;
+  width: 600px;
+  border: 0;
+  background: #fbf8f7;
+}
+
+.submit-form-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: white;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  width: 150px;
+}
+
+#line-3 {
+  background-color: #dfe1e6;
+  height: 1px;
+  margin-top: 120px;
+}
+
+.footer-socials-div {
+  display: flex;
+  justify-content: center;
+}
+
+.individual-socials {
+  margin-right: 30px;
+  padding: 10px;
+}
