@@ -2,7 +2,7 @@
   background-color: #262626;
   color: white;
 }
-  
+
 .about-me-intro {
   background-image: url('/images/about-me-image.png');
   background-repeat: no-repeat;
@@ -11,14 +11,14 @@
   margin-left: 150px;
   padding-top: 70px;
 }
-  
+
 .about-me-title {
   font-family: 'Crete Round', monospace;
   font-size: 72px;
   font-weight: 400;
   color: #f55800;
   line-height: 81px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .about-me-description {
@@ -70,7 +70,7 @@ ul {
 .individual-li {
   font-size: 22px;
 }
-  
+
 #line-2 {
   background-color: white;
   height: 1px;
