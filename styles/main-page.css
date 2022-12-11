@@ -114,7 +114,6 @@
   width: 794px;
   color: black;
   background-color: #1c1a19;
-  vertical-align: center;
   margin-top: 60px;
   margin-left: 40px;
 }
@@ -252,15 +251,4 @@
 
 .website-portfolio {
   margin-top: 85px;
-}
-
-.about-me {
-  background-color: #3e3c3c;
-  color: white;
-}
-
-.about-me-intro {
-  background-image: url('/images/about-me-image.png');
-  background-repeat: no-repeat;
-  background-position: right bottom;
 }
